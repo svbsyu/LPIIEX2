@@ -1,0 +1,24 @@
+package com.cibertec.app.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import com.cibertec.app.entity.Cliente;
+import com.cibertec.app.service.ClienteService;
+
+@Controller
+public class ClienteController {
+
+	@Autowired
+	private ClienteService service;
+
+	@GetMapping("/cliente")
+	public String listClientes(Model model) {
+		model.addAttribute("clientes", service.getAllCliente());
+		return "cliente/index";
+	}
+}

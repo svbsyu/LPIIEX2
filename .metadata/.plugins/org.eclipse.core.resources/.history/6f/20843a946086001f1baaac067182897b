@@ -1,0 +1,50 @@
+package com.cibertec.app.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cibertec.app.entity.Categoria;
+import com.cibertec.app.entity.Cliente;
+import com.cibertec.app.repository.CategoriaRepository;
+import com.cibertec.app.service.CategoriaService;
+import com.cibertec.app.service.ClienteService;
+
+@Service
+public class ClienteServiceImpl implements ClienteService {
+
+	@Autowired
+	CategoriaRepository categoriaRepository;
+
+	@Override
+	public Cliente saveCliente(Cliente userEntity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Cliente> getAllCliente() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Cliente updateCliente(Cliente userEntity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteCliente(Integer id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Cliente findClienteById(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

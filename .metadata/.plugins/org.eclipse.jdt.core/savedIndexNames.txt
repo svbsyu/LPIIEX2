@@ -1,0 +1,2 @@
+INDEX VERSION 1.134+C:\Users\Svbsyu\Desktop\LPII_Sesion_07- Rec\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index

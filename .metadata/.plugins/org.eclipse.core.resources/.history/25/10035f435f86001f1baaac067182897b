@@ -1,0 +1,16 @@
+package com.cibertec.app.service.impl;
+
+import java.util.List;
+
+import com.cibertec.app.entity.Categoria;
+import com.cibertec.app.service.CategoriaService;
+
+public class ClienteServiceImpl implements CategoriaService {
+
+	@Override
+	public List<Categoria> getAllCategoria() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

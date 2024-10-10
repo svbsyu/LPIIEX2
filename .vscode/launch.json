@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringBootSesion07Application<SpringBoot_Sesion07>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.cibertec.app.SpringBootSesion07Application",
+            "projectName": "SpringBoot_Sesion07",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

@@ -41,8 +41,9 @@ public class ProductoServiceImpl implements ProductoService{
 
 	@Override
 	public Producto findProductoById(Integer idProd) {
-		// TODO Auto-generated method stub
 		return productoRepository.findById(idProd).get();
 	}
+
+	
 
 }
